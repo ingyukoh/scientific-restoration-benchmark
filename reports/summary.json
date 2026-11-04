@@ -1,0 +1,52 @@
+{
+  "gaussian": {
+    "delta_psnr_90pct_interval": [
+      0.3040641731586437,
+      2.184386986895503
+    ],
+    "edge_mae": 0.03153875849698687,
+    "n_test_cases": 32,
+    "parameters": {
+      "sigma": 0.7
+    },
+    "psnr_db": 24.56706491409968,
+    "ssim": 0.702308233001887
+  },
+  "median": {
+    "delta_psnr_90pct_interval": [
+      -0.688753121803609,
+      2.892690670616024
+    ],
+    "edge_mae": 0.0274183095247134,
+    "n_test_cases": 32,
+    "parameters": {
+      "size": 3
+    },
+    "psnr_db": 24.44206336241072,
+    "ssim": 0.6690097134753443
+  },
+  "noisy_input": {
+    "delta_psnr_90pct_interval": [
+      0.0,
+      0.0
+    ],
+    "edge_mae": 0.03576752403707643,
+    "n_test_cases": 32,
+    "parameters": {},
+    "psnr_db": 23.31052152225935,
+    "ssim": 0.4950231202830487
+  },
+  "wiener": {
+    "delta_psnr_90pct_interval": [
+      3.9690878597651627,
+      5.928091728503736
+    ],
+    "edge_mae": 0.020607987751313714,
+    "n_test_cases": 32,
+    "parameters": {
+      "size": 3
+    },
+    "psnr_db": 28.27812527479769,
+    "ssim": 0.7897127862965282
+  }
+}

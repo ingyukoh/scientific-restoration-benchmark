@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.DS_Store
+.pytest_cache/
+build/
+dist/
+.matplotlib/
+reports/environment.json
+reports/timing.json

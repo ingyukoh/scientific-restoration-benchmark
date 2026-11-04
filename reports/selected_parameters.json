@@ -1,0 +1,72 @@
+{
+  "calibration_search": [
+    {
+      "calibration_psnr_db": 24.531105978492416,
+      "method": "gaussian",
+      "parameters": {
+        "sigma": 0.4
+      }
+    },
+    {
+      "calibration_psnr_db": 24.590555092099624,
+      "method": "gaussian",
+      "parameters": {
+        "sigma": 0.7
+      }
+    },
+    {
+      "calibration_psnr_db": 22.970870397178114,
+      "method": "gaussian",
+      "parameters": {
+        "sigma": 1.0
+      }
+    },
+    {
+      "calibration_psnr_db": 24.362417038330083,
+      "method": "median",
+      "parameters": {
+        "size": 3
+      }
+    },
+    {
+      "calibration_psnr_db": 22.50278323591421,
+      "method": "median",
+      "parameters": {
+        "size": 5
+      }
+    },
+    {
+      "calibration_psnr_db": 28.416310174889016,
+      "method": "wiener",
+      "parameters": {
+        "size": 3
+      }
+    },
+    {
+      "calibration_psnr_db": 27.170739982791705,
+      "method": "wiener",
+      "parameters": {
+        "size": 5
+      }
+    },
+    {
+      "calibration_psnr_db": 25.65972977702663,
+      "method": "wiener",
+      "parameters": {
+        "size": 7
+      }
+    }
+  ],
+  "selected": {
+    "gaussian": {
+      "sigma": 0.7
+    },
+    "median": {
+      "size": 3
+    },
+    "noisy_input": {},
+    "wiener": {
+      "size": 3
+    }
+  }
+}
